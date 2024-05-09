@@ -1,0 +1,28 @@
+{
+	"name": "jsnsd",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": ""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fimarkovicc/jsnsd.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/fimarkovicc/jsnsd/issues"
+	},
+	"homepage": "https://github.com/fimarkovicc/jsnsd#readme",
+	"devDependencies": {
+		"nodemon": "^3.1.0"
+	},
+	"dependencies": {
+		"express": "^4.19.2",
+		"http-errors": "^2.0.0"
+	}
+}
