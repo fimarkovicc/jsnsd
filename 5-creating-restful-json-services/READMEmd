@@ -1,0 +1,15 @@
+# CREATING RESTFUL JSON SERVICES
+
+## Chapter Overview
+
+There are many ways to construct a service, and various ways to implement how those services communicate. Interoperability between services and between services and clients is a question of architectural style. This training and the Node Services Developer Certification Examination itself focuses on one of the most commonly used architectural styles for web-facing systems: RESTful services. It also focuses on one of the most common data interchange formats: JSON.
+
+This chapter is about implementing RESTful JSON services, a basic understanding of REST and JSON is assumed. For more information see the [JSON specification](https://www.json.org/json-en.html) and the original dissertation ["Architectural Styles and the Design of Network-based Software Architectures"](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) (in particular Chapter 5) that outlined the REST architectural style. Alternatively, you can review the more easily digestible Wikipedia article - ["Representational State Transfer"](https://en.wikipedia.org/wiki/Representational_state_transfer).
+
+## Learning Objectives
+
+By the end of this chapter, you should be able to:
+
+- Understand common conventions for building and deploying RESTful JSON services.
+- Ascertain how to implement a service that can handle a JSON GET to specific resources.
+- Identify the fundamental minimum functional criteria that a RESTful JSON service should satisfy.
