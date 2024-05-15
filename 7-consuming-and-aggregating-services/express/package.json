@@ -1,0 +1,22 @@
+{
+	"name": "express-all",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "cross-env BRAND_SERVICE_PORT=5000 BOAT_SERVICE_PORT=4000 nodemon app.js",
+		"start:boat-service": "cross-env PORT=4000 nodemon boat-service.js",
+		"start:brand-service": "cross-env PORT=5000 nodemon brand-service.js",
+		"start:all": "concurrently \"npm run dev\" \"npm run start:boat-service\" \"npm run start:brand-service\""
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"concurrently": "^8.2.2",
+		"cross-env": "^7.0.3",
+		"express": "^4.19.2",
+		"got": "^14.2.1",
+		"http-errors": "^2.0.0"
+	}
+}
