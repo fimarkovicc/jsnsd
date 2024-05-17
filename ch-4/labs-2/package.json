@@ -1,0 +1,17 @@
+{
+	"name": "labs-2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "stream.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.19.2",
+		"http-errors": "^2.0.0"
+	}
+}

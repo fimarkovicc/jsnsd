@@ -1,0 +1,19 @@
+{
+	"name": "labs-1",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "cross-env PORT=3000 BOAT_SERVICE_PORT=4000 BRAND_SERVICE_PORT=5000 node app.js",
+		"dev": "cross-env PORT=3000 BOAT_SERVICE_PORT=4000 BRAND_SERVICE_PORT=5000 nodemon app.js",
+		"start:boat": "cross-env PORT=4000 node boat-service.js",
+		"start:brand": "cross-env PORT=5000 node brand-service.js",
+		"start:all": "concurrently \"npm run dev\" \"npm run start:boat\" \"npm run start:brand\""
+	},
+	"keywords": [],
+	"license": "UNLICENSED",
+	"dependencies": {
+		"concurrently": "^8.2.2",
+		"cross-env": "^7.0.3",
+		"express": "^4.19.2",
+		"http-errors": "^2.0.0"
+	}
+}
