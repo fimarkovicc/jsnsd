@@ -1,0 +1,14 @@
+{
+	"name": "labs-1",
+	"version": "1.0.0",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js"
+	},
+	"keywords": [],
+	"license": "UNLICENSED",
+	"dependencies": {
+		"express": "^4.19.2",
+		"http-proxy-middleware": "^3.0.0"
+	}
+}
